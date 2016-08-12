@@ -6,6 +6,7 @@ RUN apt-get update \
     curl \
     groovy \
     mongodb-clients \
+    s3cmd \
   && rm -rf /var/lib/apt/lists/*
 
 RUN grape install org.apache.commons commons-exec 1.3
