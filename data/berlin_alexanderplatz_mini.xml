@@ -11,6 +11,9 @@
         </gml:Envelope>
       </gml:boundedBy>
       <creationDate>2008-12-09+01:00</creationDate>
+      <gen:stringAttribute name="TestBuildingName">
+        <gen:value>TestBuilding1</gen:value>
+      </gen:stringAttribute>
       <bldg:lod2Solid>
         <gml:Solid gml:id="UUID_f99f7fe2-7c46-403d-b280-2b9153ba225a">
           <gml:exterior>
@@ -273,6 +276,9 @@
         </gml:Envelope>
       </gml:boundedBy>
       <creationDate>2008-12-09+01:00</creationDate>
+      <gen:stringAttribute name="TestBuildingName">
+        <gen:value>TestBuilding2</gen:value>
+      </gen:stringAttribute>
       <bldg:lod2Solid>
         <gml:Solid gml:id="UUID_9b5fc223-a90f-48c7-88bb-894b6d486f45">
           <gml:exterior>
