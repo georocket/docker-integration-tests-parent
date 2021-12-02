@@ -1,4 +1,4 @@
-FROM debian:buster-slim
+FROM ubuntu:21.10
 MAINTAINER Michel Kraemer <michel.kraemer@igd.fraunhofer.de>
 
 # see https://github.com/debuerreotype/docker-debian-artifacts/issues/24#issuecomment-360870939
