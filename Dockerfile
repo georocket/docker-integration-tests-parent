@@ -12,6 +12,7 @@ RUN apt-get update \
   && apt-get install -y --no-install-recommends \
     groovy \
     mongodb-org-shell \
+    postgresql-client \
   && rm -rf /var/lib/apt/lists/* \
   && aria2c --dir /usr/local/bin/ https://dl.min.io/client/mc/release/linux-amd64/mc \
   && chmod +x /usr/local/bin/mc
